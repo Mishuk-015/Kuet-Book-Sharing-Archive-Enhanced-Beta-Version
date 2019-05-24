@@ -1,0 +1,22 @@
+CREATE DATABASE mydb1;
+
+CREATE TABLE Persons
+(
+user_id varchar(30) not null unique,
+user_name varchar(30) not null,
+user_email varchar(60) not null,
+user_pwd varchar(30) not null,
+privilage varchar(100) not null,
+primary key(user_email)
+);
+
+CREATE TABLE Booklink
+(
+user_booklink varchar(200) not null,
+user_bookname varchar(100) not null,
+user_email varchar(60) not null,
+user_id varchar(30) not null,
+user_pwd varchar(30) not null,
+spamcount int default 0,
+primary key(user_booklink)
+);

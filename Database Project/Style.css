@@ -1,0 +1,53 @@
+body
+{
+  /*background:#000000;*/ 
+  margin:0px;
+  pading:0px;
+}
+.Homepage
+{
+	background: :#111111;
+	text-align: center;
+}
+#container
+{
+  background:#111111;
+}
+.Homepage li
+{
+	float:left;
+        padding:25;
+	list-style-type:none;
+	font-size: 20px;
+	text-decoration: none;
+}
+.Homepage li a
+{
+	text-decoration: none;
+	color: white;
+}
+.Homepage li a:hover
+{
+ 	color:green;
+}
+.Upportion
+{
+	background:#0ff;
+	text-align: center;
+}
+.Upportion h1
+{
+	color:#111111;
+}
+.Downportion
+{
+	background:#000000;
+}
+.bottom
+{
+	background:#000000;
+}
+.lobottom
+{
+	background-color: #345121;
+}
