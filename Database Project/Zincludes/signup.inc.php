@@ -19,7 +19,7 @@ if(isset($_POST['submit']))
 	}
 	else
 	{
-		$sql="SELECT * FROM persons where user_id='Userid'";
+		$sql="SELECT * FROM persons where user_id='$Userid'";
 		$result=mysqli_query($conn, $sql);
 		$resultcheck=mysqli_num_rows($result);
 
